@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="sweep" aria-hidden="true"><span></span></div>
+    <div>
+      <h1>TOKEN RADAR</h1>
+      <p class="tag">What a token would be worth if the protocol's record stayed as it is.</p>
+    </div>
+  </div>
+  <dl class="stats" id="stats"></dl>
+</header>
+<nav class="tabs" id="tabs">
+  <button data-tab="board" class="on">Pre-token board</button>
+  <button data-tab="live">Live tokens · the market</button>
+  <button data-tab="model">How the value is built</button>
+</nav>
+<section class="controls" id="controls">
+  <input id="q" type="search" placeholder="Search name or slug…" autocomplete="off">
+  <select id="category" aria-label="Category"></select>
+  <select id="chain" aria-label="Chain"></select>
+  <select id="sort" aria-label="Sort by">
+    <option value="implied">Sort · implied value</option>
+    <option value="tvl">Sort · TVL</option>
+    <option value="growth">Sort · 7-day change</option>
+    <option value="age">Sort · age without a token</option>
+  </select>
+  <label class="check"><input id="watch" type="checkbox"> Watchlist only</label>
+</section>
+<main id="app" aria-busy="true"></main>
+<aside id="detail" class="detail" hidden></aside>
+<footer class="foot" id="foot"></footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
