@@ -1,8 +1,8 @@
 # Token Radar
 
-[![make.fun](https://make.fun/badge/bounty/token-radar-01)](https://make.fun/bounty/token-radar-01)
-[![make.fun](https://make.fun/badge/owner/2162638406-prog)](https://make.fun)
-[![make.fun](https://make.fun/badge/prize/token-radar-01)](https://make.fun/bounty/token-radar-01)
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/2162638406-prog/token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/2162638406-prog/token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 A token launch radar: it reads a sealed DefiLlama snapshot, ranks every
 pre-token protocol by the implied value its own record supports, and shows a
