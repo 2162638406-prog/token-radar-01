@@ -1,0 +1,7 @@
+{
+  "name": "token-radar",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A token launch radar: pre-token protocols ranked by the implied value their own record supports.",
+  "license": "MIT"
+}
